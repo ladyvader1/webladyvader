@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*selectores de etiqueta*/
+body {
+    background-image: url(../img/background/background2.png)
+    }
+
+.logo_banner_inicio {
+        /*size*/
+        width: 100%;
+    }
+/*caja_principal_somos_civ*/
+.caja_mayor_contenedora {
+    display: grid;
+    background-color: rgba(255, 192, 203, 0);
+    justify-content: space-between;
+    border: 1px solid;
+    grid-template-columns: auto
+}
+
+
+/*caja_principal_somos_civ*/
+.caja1 {
+    display: grid;
+    border: 4px solid black;
+    background-color: blueviolet;
+    grid-template-columns: 30% 70%;
+    text-align: center;
+    line-height: 150px;
+    padding: 8px 8px;
+    justify-content: center;
+}
+
+/*caja_contenido_imagenes_index*/
+.caja2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    width: 90%;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 1px solid black
+}
+
+.encabezado{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: none
+}
+
+.anuncio_de_nosotros {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    background-color: rgb(238, 0, 0);
+    padding: 20px;
+    border: none
+}
+
+.contact{
+    border: 3px rgb(0, 22, 92);
+    background-color: rgba(40, 206, 206, 0.837);
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    padding: 8px 8px;
+}
+
+.anuncio_de_contacto {
+    border: 2px black
+}
+
+/*fuente_H1*/
+h1{
+    color: rgb(2, 2, 81);
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 130;
+    font-size: 25px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-right: 80px
+}
+.barra_arriba ul li a {
+    text-decoration: none;
+    color: white;
+    /*subrayado_animado*/
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+}
+
+.barra_arriba ul li a:hover {
+    color:black;
+    font-weight: 600;
+    background-size: 100% 2px
+}
+/*caja_de_menu*/
+nav{
+    width: 100%;
+    background-color: rgba(0, 18, 132, 0.759);
+    display: inline-flex;
+    padding: 8px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+    nav ul {
+        list-style: none;
+        display: flex
+    }
+        nav ul li {
+            display: inline-block;
+            margin-right: 80px;
+        }
+
+/*letras_de_menu*/
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration:double; 
+    font-size: large;
+    font-weight: 300; 
+}
+
+form {
+    width: 30;
+    margin: auto;
+}
+    form label {
+        display: block;
+    }
+
+    form input {
+        margin-bottom: 20px;
+    }
+
+/*letra_caja_index*/
+.text-blue{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    }
+
+
+.copyright {
+    display: grid;
+    grid-column: 1/2;
+    width: 100;
+    text-align: right;
+    color: white;
+    background-color: rgb(0, 15, 109);
+    padding: 0.5em 0;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.galeria {
+    margin: 20px;
+    /*display flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ultimos_proyectos {
+        /*display flex*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow-y: auto;
+}
+
+.fotos_de_servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.servicios_inicio_escrito {
+    background-color: blueviolet;
+}
+
+.container {
+    padding: 10px;
+    border: solid 1px black;
+    background-color: black;
+}
+
+/* DESDE ACA BORRAR TODO LO QUE SIGUE HASDTA EL FOOTER*/
+.grid {
+    width: 99%;
+    display: grid;
+}
+
+.grid-template-columns-row {
+    gap: 10px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: repeat(2,50%)
+    
+}
+
+/* Fondos colores */
+.bg-red{
+	background-color: red;
+	}
+
+.bg-grey{
+	background-color: grey;
+	}
+
+.bg-yellow{
+	background-color: yellow;
+	}
+
+.bg-green{
+	background-color: green;
+	}
+
+.bg-blue{
+	background-color: blue;
+	}
+
+.bg-dark{
+	background-color:#403E3E;
+}
+
+.bg-warning-scale:hover {
+    transform: scale(0.5);
+    cursor: pointer;
+    transition: all 1s
+}
+
+@keyframes FirstAni {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+h1 {
+    animation-name: FirstAni;
+    animation-duration: 3s;
+}
+
+button {
+    border: none;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: linear-gradient(to bottom, yellow, green);
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(to top, yellow, green);
+    transition: all 1s;
+}

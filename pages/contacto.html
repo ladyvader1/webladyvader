@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../favicon-16x16.png" type="image/x-icon">
+    <!--linkeamos el css a mi html-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">
+            <img src="../img/civlogoindex.png" alt="logo civ">
+        </a>
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="./servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="./nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="./proyectos.html">Proyectos</a>
+            </li>
+            <li>
+                <a href="./novedades.html">Novedades</a>
+            </li>
+            <!-- link interno/ marca/ anclaje -->
+            <li><a href="./contacto.html">Contacto</a> </li>
+        </ul>
+    </nav>
+    <!--ends nav-->
+    <main>
+        <section>
+                <h1>Contacto</h1>
+                <div class="contact">
+                    <p>¿Cómo podemos ayudarlo? Si necesita presupuestar, o simplemente orientarse sobre la mejor solución para usted no dude en contactarnos llenando el formulario y lo contactaremos a la brevedad</p>
+                </div>
+                    <article>
+                        <!--form-->
+                        <form action="anuncio_contacto">
+                            <label for="name">Nombre y Apellido</label>
+                            <input type="text" id="name">
+                            <label for="mail">Mail de contacto</label>
+                            <input type="email" id="mail">
+                            <label for="number">Numero de telefono</label>
+                            <input type="telefono" id="telefono">
+                            <label for="">Su mensaje: </label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>                            
+                                <input type="reset" value="Cancelar">
+                                <input type="submit" value="Aceptar">                            
+                        </form>
+                    </article>
+                    <article>
+                        <!--googlemap-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.7572095942146!2d-58.49250008543789!3d-34.5090389804841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb13e184026fd%3A0x76024e9092ea5436!2sC%C3%B3rdoba%202781%2C%20B1636DBG%20Olivos%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2ses!4v1672249709175!5m2!1ses-419!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                    </article>
+        </section>
+        <!--ends contacto-->
+    </main>
+    <!--endsmain-->
+    <footer>
+        <p>Seguinos en nuestras redes sociales
+            <a  href="https://www.facebook.com/CIV.Ingenieria" target="_blank">
+            <img src="../img/facebook.jpg" alt="Seguinos en FB" height="30px" class="footer__icon--sm"
+            </a>
+            <a  href="https://www.instagram.com/civ.ingenieria/?hl=es" target="_blank">
+            <img src="../img/botoninsta.png" alt="Seguinos en IG" class="footer__icon--sm"
+            </a>
+            <img src="../img/botonmail.png">
+        </p>
+        <footer class="copyright">
+            Copyright - All Rights Reserved © 2023 Buenos Aires, AR    
+        </footer>
+    </footer>
+</body>
+</html>
